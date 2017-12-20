@@ -9,4 +9,4 @@ script:
   # other script steps might be done before running the actual analysis
   - sonar-scanner
   - npm run build
-  - npm start
+  - npm test
