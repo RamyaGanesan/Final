@@ -1,9 +1,9 @@
 language : node_js
 addons:
   sonarcloud:
-    organization: "ramyaganesan-github" # the key of the org you chose at step #3
+    organization: "ra12" # the key of the org you chose at step #3
     token:
-      secure: 31436b24beaf6547564a7da2053c94b95b348716
+      secure: b0ab0d18c5b50480b83e8c4e2763542111d52f38
 script:
   # other script steps might be done before running the actual analysis
   - sonar-scanner
