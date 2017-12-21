@@ -4,7 +4,7 @@ addons:
   sonarcloud:
     organization: "ramyaganesan-github" # the key of the org you chose at step #3
     token:
-      secure: 
+      secure: 04949fb9d576e0d2158bd0f9dfcb6b431f0d4978 
     branches:
       - master
 script:
