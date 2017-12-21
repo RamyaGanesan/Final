@@ -3,10 +3,8 @@ node_js  : stable
 addons:
   sonarcloud:
     organization: "ramyaganesan-github" # the key of the org you chose at step #3
-    token:
-      secure: 04949fb9d576e0d2158bd0f9dfcb6b431f0d4978 
-    branches:
-      - master
+  token:
+    secure: 04949fb9d576e0d2158bd0f9dfcb6b431f0d4978 
 script:
   # other script steps might be done before running the actual analysis
   - sonar-scanner
