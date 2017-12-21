@@ -2,9 +2,9 @@ language : node_js
 node_js  : stable
 addons:
   sonarcloud:
-    organization: "jayanthi17-github" # the key of the org you chose at step #3
+    organization: "ramyaganesan-github" # the key of the org you chose at step #3
     token:
-      secure: 74b398ebc901e9bb9559f22295728185790949f8 
+      secure: 
     branches:
       - master
 script:
